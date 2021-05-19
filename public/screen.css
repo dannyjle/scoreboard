@@ -87,20 +87,33 @@ fieldset i.add {
   color: #000000;
 }
 
+fieldset i.add:hover {
+  cursor: pointer;
+}
+
 fieldset i.subtract {
   color: #ffffff;
 }
 
+fieldset i.subtract:hover {
+  cursor: pointer;
+}
+
 footer {
+  font-weight: bold;
   min-width: 5rem;
   border: thin solid #1a1a1a7c;
   border-radius: 0.3rem;
   margin-bottom: 3rem;
   margin-left: 20rem;
   margin-right: 20rem;
-  background-color: rgb(201, 199, 87);
+  background-color: #919191;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+footer:hover {
+  cursor: pointer;
 }
