@@ -1,12 +1,21 @@
-let teamOne = document.querySelector('h2')
-const inputElement = document.querySelector('input')
+function main() {
+  function updateTeamOneName(event) {
+    const teamOneName = document.querySelector('.team1 h2')
+    teamOneName.textContent = event.target.value
+  }
 
-function main() {}
+  function updateTeamTwoName(event) {
+    const teamTwoName = document.querySelector('.team2 h2')
+    teamTwoName.textContent = event.target.value
+  }
 
-function addTeamName(event) {
-  const currentInputValue = event.target.value
-  teamOne.innerText = currentInputValue
+  document
+    .querySelector('.team1 input')
+    .addEventListener('input', updateTeamOneName)
+
+  document
+    .querySelector('.team2 input')
+    .addEventListener('input', updateTeamTwoName)
 }
-inputElement.addEventListener('input', addTeamName)
 
 document.addEventListener('DOMContentLoaded', main)

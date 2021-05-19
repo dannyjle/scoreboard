@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 verdana;
 }
 
 html {
@@ -10,7 +10,7 @@ body {
   margin: 0;
   min-height: 100%;
   background-color: #919191;
-  color: #444444;
+  color: #272727b9;
 }
 
 h1 {
@@ -26,11 +26,24 @@ main {
   justify-content: space-evenly;
 }
 
-section {
+.team1 {
   min-width: 20rem;
   border: thin solid #1a1a1a7c;
   border-radius: 0.3rem;
   margin-bottom: 3rem;
+  background-color: rgb(150, 100, 100);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team2 {
+  min-width: 20rem;
+  border: thin solid #1a1a1a7c;
+  border-radius: 0.3rem;
+  margin-bottom: 3rem;
+  background-color: rgb(100, 107, 150);
 
   display: flex;
   flex-direction: column;
@@ -63,7 +76,7 @@ fieldset i {
 }
 
 fieldset i.add {
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 
 fieldset i.subtract {
