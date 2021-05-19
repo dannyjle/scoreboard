@@ -63,8 +63,16 @@ section h3 {
 
 fieldset {
   padding-left: 0;
-  padding-right: 0;
+  padding-right: 1rem;
   border: none;
+  display: flex;
+}
+
+fieldset p {
+  font-size: small;
+  font-weight: bold;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 fieldset input {
