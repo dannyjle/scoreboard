@@ -17,6 +17,7 @@ h1 {
   text-align: center;
   font-family: Monospace;
   margin: 0rem 0 3rem 0;
+  padding: 5px 0 5px 0;
   background-color: #6b6b6b;
 }
 
@@ -100,15 +101,6 @@ fieldset i.subtract:hover {
 }
 
 footer {
-  font-weight: bold;
-  min-width: 5rem;
-  border: thin solid #1a1a1a7c;
-  border-radius: 0.3rem;
-  margin-bottom: 3rem;
-  margin-left: 20rem;
-  margin-right: 20rem;
-  background-color: #919191;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,4 +108,14 @@ footer {
 
 footer:hover {
   cursor: pointer;
+}
+
+f {
+  font-weight: bold;
+  min-width: 5rem;
+  border: thin solid #1a1a1a7c;
+  border-radius: 0.3rem;
+  background-color: #919191;
+  display: flex;
+  justify-content: center;
 }
