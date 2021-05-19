@@ -1,7 +1,12 @@
-function main() {
-  if (document.querySelector('h1.hello-world')) {
-    document.querySelector('h1.hello-world').textContent = 'Hello, World!'
-  }
+let teamOne = document.querySelector('h2')
+const inputElement = document.querySelector('input')
+
+function main() {}
+
+function addTeamName(event) {
+  const currentInputValue = event.target.value
+  teamOne.innerText = currentInputValue
 }
+inputElement.addEventListener('input', addTeamName)
 
 document.addEventListener('DOMContentLoaded', main)
