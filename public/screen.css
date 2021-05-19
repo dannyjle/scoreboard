@@ -90,3 +90,17 @@ fieldset i.add {
 fieldset i.subtract {
   color: #ffffff;
 }
+
+footer {
+  min-width: 5rem;
+  border: thin solid #1a1a1a7c;
+  border-radius: 0.3rem;
+  margin-bottom: 3rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  background-color: rgb(201, 199, 87);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
